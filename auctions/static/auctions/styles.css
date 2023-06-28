@@ -1,0 +1,41 @@
+body {
+    padding: 10px;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea{
+    height: calc(1.5em + .75rem + 42px);
+}
+
+.listing{
+    display: flex;
+    padding: 1.5rem;
+}
+
+.listing .left{
+    width: 30%;
+}
+.listing .left img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.listing .right{
+    width: 70%;
+    padding: 2rem;
+    padding-top: 0;
+}
