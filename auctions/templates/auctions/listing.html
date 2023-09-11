@@ -40,7 +40,7 @@
             <form action="{% url 'bid' listing.id %}" method="post" class="mt-4">
                 {% csrf_token %}
                 <div class="form-group">
-                    <input class="form-control" autofocus type="text" name="amount" placeholder="Amount">
+                    <input class="form-control" autofocus type="text" name="amount" placeholder="Amount" autocomplete="off">
                 </div>
             
                 <input class="btn btn-primary mb-3" type="submit" value="Bid">
